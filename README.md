@@ -68,7 +68,7 @@ Every plugin is designed to interoperate — DSC's soul state can affect DCM com
 - **Game Systems:** Java (Paper API)
 - **Databases:** PostgreSQL, MySQL, MongoDB
 - **Frontend:** HTML, CSS
-- **Exploring:** C, Assembly
+- **Exploring:** Go, Wails
 
 ---
 
