@@ -32,7 +32,7 @@ Ataraxia is a custom survival/adventure server built on a tightly integrated plu
 | **ASC** — Ataraxia Soul Covenant | A seven-soul progression system with karma/corruption tracking, a server-wide Soul State meter, and an Era system tied to dragon defeats |
 | **AtaraxiaMain** | Server core: spawn protection, welcome book, `/wild`, MOTD, and server-specific glue logic |
 
-Every plugin is designed to interoperate — DSC's soul state can affect DCM combat behavior, DPE's dragon defeats advance DSC's Era system, and so on.
+Every plugin is designed to interoperate — ASC's soul state can affect ACM combat behavior, APE's dragon defeats advance ASC's Era system, and so on.
 
 ---
 
@@ -74,9 +74,10 @@ Every plugin is designed to interoperate — DSC's soul state can affect DCM com
 
 ###  Featured Projects
 
-- **[wings-core](https://github.com/fxllingstar/wings-core)** — A Git-like sync engine for distributed state management.
-- **[Dams's Combat Mechanics (DCM)](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** — Dual wielding, axe combos, parries, and a stamina system. Details in the README.
-- **[Dams's Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions: carrier pigeons, stonecutter expansions, and more.
+- **[wings-core](https://github.com/fxllingstar/wings-core)** - A Git-like sync engine for distributed state management.
+- **[Ataraxia Combat Mechanics (ACM)](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** - Dual wielding, axe combos, parries, and a stamina system. Details in the README.
+- **[Ataraxia Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** - Vanilla+ additions: carrier pigeons, stonecutter expansions, and more.
+- **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI) - Quotes API for Fast and Furious Series
 
 ###  Future Roadmap
 - [ ] More plugins!
