@@ -13,7 +13,7 @@ I'm a self-taught **Software Engineer** focused on building complex applications
 ###  What I'm Currently Working On
 
 - **Ataraxia** — A custom Minecraft server built around an interconnected plugin suite I'm developing entirely from scratch. See below ↓
-- **Dams's Plugin Suite** — A family of Paper/Java plugins powering Ataraxia's combat, PvE, dungeons, souls, and more.
+- **Ataraxia Plugin Suite** — A family of Paper/Java plugins powering Ataraxia's combat, PvE, dungeons, souls, and more.
 
 ---
 
@@ -26,10 +26,10 @@ Ataraxia is a custom survival/adventure server built on a tightly integrated plu
 
 | Plugin | Description |
 |--------|-------------|
-| **DCM** — Dams's Combat Mechanics | Dual wielding, axe combos, parries, stamina system with Boss Bar HUD |
-| **DPE** — Dams's PvE Enchantments | Custom enchantments + a 10-stage Ender Dragon "Refusal Fight" with dialogue and unique mechanics |
-| **DDC** — Dams's Dungeon Crawler | Instanced tower dungeons with persistent player levels, co-op sessions, and ModelEngine bosses |
-| **DSC** — Dams's Soul Covenant | A seven-soul progression system with karma/corruption tracking, a server-wide Soul State meter, and an Era system tied to dragon defeats |
+| **ACM** — Ataraxia Combat Mechanics | Dual wielding, axe combos, parries, stamina system with Boss Bar HUD |
+| **APE** — Ataraxia PvE Enchantments | Custom enchantments + a 10-stage Ender Dragon "Refusal Fight" with dialogue and unique mechanics |
+| **ADC** — Ataraxia Dungeon Crawler | Instanced tower dungeons with persistent player levels, co-op sessions, and ModelEngine bosses |
+| **ASC** — Ataraxia Soul Covenant | A seven-soul progression system with karma/corruption tracking, a server-wide Soul State meter, and an Era system tied to dragon defeats |
 | **AtaraxiaMain** | Server core: spawn protection, welcome book, `/wild`, MOTD, and server-specific glue logic |
 
 Every plugin is designed to interoperate — DSC's soul state can affect DCM combat behavior, DPE's dragon defeats advance DSC's Era system, and so on.
