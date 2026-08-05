@@ -22,7 +22,7 @@ I'm a self-taught **Software Engineer** focused on building complex applications
 
 Ataraxia is a custom survival/adventure server built on a tightly integrated plugin ecosystem I'm designing and developing with a duo. Every system is purpose-built — nothing is off-the-shelf.
 
-**The Plugin Suite (Dams's):**
+**The Plugin Suite (Ataraxia):**
 
 | Plugin | Description |
 |--------|-------------|
