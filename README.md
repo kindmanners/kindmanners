@@ -16,7 +16,7 @@ I enjoy working on projects where low-level logic, networking, system architectu
 
 * **Tether** — A private distributed inference platform for running and managing local LLM workloads across multiple machines.
 * **wings-core** — A Git-like synchronization engine for distributed state management.
-* Learning more about **Go**, distributed systems, networking, and systems programming.
+* Learning more about **Go**, networking, and systems programming.
 
 ---
 
@@ -56,7 +56,7 @@ Tether is being built to support everything from a single remote GPU to multi-no
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
 * **Backend:** Python, Node.js, Express, WebSockets, JWT
-* **Systems / Networking:** Go, REST APIs, mTLS, distributed systems
+* **Systems / Networking:** Go, REST APIs, mTLS
 * **Game Systems:** Java, Paper API
 * **Databases:** PostgreSQL, MySQL, MongoDB
 * **Frontend:** HTML, CSS, JavaScript
