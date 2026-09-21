@@ -6,93 +6,92 @@
   <h1>Hello :></h1>
 </div>
 
-I'm a self-taught **Software Engineer** focused on building complex applications, developer tools, and game systems. I love bridging the gap between deep logic and immersive mechanics.
+I'm a self-taught **Software Engineer** focused on building complex applications, developer tools, distributed systems, and backend infrastructure.
+
+I enjoy working on projects where low-level logic, networking, system architecture, and user-facing software come together.
 
 ---
 
-###  What I'm Currently Working On
+### What I'm Currently Working On
 
-- **Ataraxia** — A custom Minecraft server built around an interconnected plugin suite I'm developing entirely from scratch. See below ↓
-- **Ataraxia Plugin Suite** — A family of Paper/Java plugins powering Ataraxia's combat, PvE, dungeons, souls, and more.
+* **Tether** — A private distributed inference platform for running and managing local LLM workloads across multiple machines.
+* **wings-core** — A Git-like synchronization engine for distributed state management.
+* Learning more about **Go**, distributed systems, networking, and systems programming.
 
 ---
 
-###  Ataraxia — Custom Minecraft Server
+### Tether
+
 <sub>A project under <strong>Ataraxia Productions</strong></sub>
 
-Ataraxia is a custom survival/adventure server built on a tightly integrated plugin ecosystem I'm designing and developing with a duo. Every system is purpose-built — nothing is off-the-shelf.
+**Tether** is a private-network control plane for distributed local LLM inference.
 
-**The Plugin Suite (Ataraxia):**
+It allows multiple machines to cooperate as inference nodes while a central orchestrator handles discovery, pairing, model placement, worker management, and API access.
 
-| Plugin | Description |
-|--------|-------------|
-| **ACM** — Ataraxia Combat Mechanics | Dual wielding, axe combos, parries, stamina system with Boss Bar HUD |
-| **APE** — Ataraxia PvE Enchantments | Custom enchantments + a 10-stage Ender Dragon "Refusal Fight" with dialogue and unique mechanics |
-| **ADC** — Ataraxia Dungeon Crawler | Instanced tower dungeons with persistent player levels, co-op sessions, and ModelEngine bosses |
-| **ASC** — Ataraxia Soul Covenant | A seven-soul progression system with karma/corruption tracking, a server-wide Soul State meter, and an Era system tied to dragon defeats |
-| **AtaraxiaMain** | Server core: spawn protection, welcome book, `/wild`, MOTD, and server-specific glue logic |
+The goal is to make distributed local inference feel less like manually managing several computers and more like using one cohesive system.
 
-Every plugin is designed to interoperate — ASC's soul state can affect ACM combat behavior, APE's dragon defeats advance ASC's Era system, and so on.
+**Architecture:**
+
+* **Orchestrator** — Discovers and manages available machines
+* **Agents** — Lightweight services running on inference nodes
+* **Secure pairing** — One-time pairing codes with pinned mTLS connections
+* **Hardware discovery** — Detects available GPU resources and VRAM
+* **Model placement** — Chooses where models and workloads should run
+* **Worker management** — Controls local `llama.cpp` / `ggml-rpc` workers
+* **OpenAI-compatible API** — Exposes a `/v1` API for applications and clients
+* **Private networking** — Designed primarily around trusted private networks such as Tailscale
+
+Tether is being built to support everything from a single remote GPU to multi-node local inference setups.
 
 ---
 
 ### 🛠️ Tech Stack
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge\&logo=javascript\&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge\&logo=node.js\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge\&logo=go\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-
-
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-
-
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-
-
-
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-
-
-
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-
-
-- **Backend:** Python, Node.js, Express, WebSockets, JWT
-- **Game Systems:** Java (Paper API)
-- **Databases:** PostgreSQL, MySQL, MongoDB
-- **Frontend:** HTML, CSS
-- **Exploring:** Go, Wails
+* **Backend:** Python, Node.js, Express, WebSockets, JWT
+* **Systems / Networking:** Go, REST APIs, mTLS, distributed systems
+* **Game Systems:** Java, Paper API
+* **Databases:** PostgreSQL, MySQL, MongoDB
+* **Frontend:** HTML, CSS, JavaScript
+* **Desktop:** Wails
+* **AI / Inference:** llama.cpp, GGUF, ggml-rpc
 
 ---
 
-###  Featured Projects
+### Featured Projects
 
-- **[wings-core](https://github.com/fxllingstar/wings-core)** - A Git-like sync engine for distributed state management.
-- **[Ataraxia Combat Mechanics (ACM)](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** - Dual wielding, axe combos, parries, and a stamina system. Details in the README.
-- **[Ataraxia Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** - Vanilla+ additions: carrier pigeons, stonecutter expansions, and more.
-- **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI) - Quotes API for Fast and Furious Series
-
-###  Future Roadmap
-- [ ] More plugins!
-- [ ] Make a chatting app.
-- [ ] An app that I can connect to my local LLM with my phone.
+* **[wings-core](https://github.com/fxllingstar/wings-core)** — A Git-like sync engine for distributed state management.
+* **[Ataraxia Combat Mechanics](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** — Dual wielding, axe combos, parries, and a stamina system.
+* **[Ataraxia Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions including carrier pigeons, stonecutter expansions, and more.
+* **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI)** — A quotes API for the Fast & Furious series.
 
 ---
 
-**Reach out:** [the.damsee@gmail.com](mailto:the.damsee@gmail.com)  
-*(Please use subject: **[GitHub Inquiry]** To avoid the spam filter<3)*
+### Future Roadmap
+
+* [ ] Continue developing Tether
+* [ ] Expand Tether's multi-node inference capabilities
+* [ ] Build a self-hosted chatting platform
+* [ ] Build mobile clients for interacting with local LLM infrastructure
+* [ ] Continue exploring distributed systems and systems programming
+
+---
+
+**Reach out:** [the.damsee@gmail.com](mailto:the.damsee@gmail.com)
+*(Please use the subject **[GitHub Inquiry]** to avoid the spam filter <3)*
 
 ---
 
 <div align="center">
   <sub>© Ataraxia Productions</sub>
-<sub>0x496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E20746F20646F20736F6D657468696E672C20646F6E277420646F2069742E20496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E206E6F7420746F20646F20736F6D657468696E672C20646F2069742E
-</sub>
+  <br>
+  <sub>0x496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E20746F20646F20736F6D657468696E672C20646F6E277420646F2069742E20496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E206E6F7420746F20646F20736F6D657468696E672C20646F2069742E</sub>
 </div>
+
