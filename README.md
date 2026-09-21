@@ -68,8 +68,8 @@ Tether is being built to support everything from a single remote GPU to multi-no
 ### Featured Projects
 
 * **[wings-core](https://github.com/fxllingstar/wings-core)** — A Git-like sync engine for distributed state management.
-* **[Ataraxia Combat Mechanics](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** — Dual wielding, axe combos, parries, and a stamina system.
-* **[Ataraxia Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions including carrier pigeons, stonecutter expansions, and more.
+* **[ Combat Mechanics](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** — Dual wielding, axe combos, parries, and a stamina system.
+* **[ Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions including carrier pigeons, stonecutter expansions, and more.
 * **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI)** — A quotes API for the Fast & Furious series.
 
 ---
