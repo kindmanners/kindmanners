@@ -15,14 +15,11 @@ I enjoy working on projects where low-level logic, networking, system architectu
 ### What I'm Currently Working On
 
 * **Tether** — A private distributed inference platform for running and managing local LLM workloads across multiple machines.
-* **wings-core** — A Git-like synchronization engine for distributed state management.
 * Learning more about **Go**, networking, and systems programming.
 
 ---
 
 ### Tether
-
-<sub>A project under <strong>Ataraxia Productions</strong></sub>
 
 **Tether** is a private-network control plane for distributed local LLM inference.
 
@@ -68,7 +65,6 @@ Tether is being built to support everything from a single remote GPU to multi-no
 ### Featured Projects
 
 * **[wings-core](https://github.com/fxllingstar/wings-core)** — A Git-like sync engine for distributed state management.
-* **[ Combat Mechanics](https://github.com/fxllingstar/Dams-s-Combat-Mechanics)** — Dual wielding, axe combos, parries, and a stamina system.
 * **[ Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions including carrier pigeons, stonecutter expansions, and more.
 * **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI)** — A quotes API for the Fast & Furious series.
 
@@ -89,9 +85,6 @@ Tether is being built to support everything from a single remote GPU to multi-no
 
 ---
 
-<div align="center">
-  <sub>© Ataraxia Productions</sub>
-  <br>
   <sub>0x496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E20746F20646F20736F6D657468696E672C20646F6E277420646F2069742E20496620796F7520617265206C6F6F6B696E6720666F72206120726561736F6E206E6F7420746F20646F20736F6D657468696E672C20646F2069742E</sub>
 </div>
 
