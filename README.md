@@ -64,9 +64,8 @@ Tether is being built to support everything from a single remote GPU to multi-no
 
 ### Featured Projects
 
-* **[wings-core](https://github.com/fxllingstar/wings-core)** — A Git-like sync engine for distributed state management.
-* **[ Vanilla+](https://github.com/fxllingstar/Dams-s-Vanilla-plus)** — Vanilla+ additions including carrier pigeons, stonecutter expansions, and more.
-* **[FastAndFurious Quote API](https://github.com/fxllingstar/fastandfuriousAPI)** — A quotes API for the Fast & Furious series.
+* **[FastAndFurious Quote API](https://github.com/kindmanners/fastandfuriousAPI)** — A quotes API for the Fast & Furious series.
+* **[Tether](https://github.com/kindmanners/tether)** — A private distributed inference platform for running and managing local LLM workloads across multiple machines.
 
 ---
 
