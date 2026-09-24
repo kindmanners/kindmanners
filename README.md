@@ -79,8 +79,7 @@ Tether is being built to support everything from a single remote GPU to multi-no
 
 ---
 
-**Reach out:** [the.damsee@gmail.com](mailto:the.damsee@gmail.com)
-*(Please use the subject **[GitHub Inquiry]** to avoid the spam filter <3)*
+**Reach out:** *kindmanners* in discord. 
 
 ---
 
